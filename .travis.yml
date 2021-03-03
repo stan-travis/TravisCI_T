@@ -1,0 +1,4 @@
+languate: python
+python:
+- 3.8
+script: python test_fruit.py
