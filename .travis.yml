@@ -9,7 +9,7 @@ script: python test_fruit.py
 #safelist
 branches:
   only: 
-  - master
+  - main
 #blocklist  
   except:
   - opt
