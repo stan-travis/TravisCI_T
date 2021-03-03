@@ -10,10 +10,8 @@ git:
 branches:
   only: 
   - master
-  
 #blocklist  
-branches:
   except:
   - opt
-  
+#regular expresions can be used too  like - /[upt][a-q]*[t]\b//
   
