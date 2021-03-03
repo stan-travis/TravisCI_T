@@ -2,3 +2,18 @@ languate: python
 python:
 - 3.8
 script: python test_fruit.py
+
+git:
+  depth: 5
+
+#safelist
+branches:
+  only: 
+  - master
+  
+#blocklist  
+branches:
+  except:
+  - opt
+  
+  
