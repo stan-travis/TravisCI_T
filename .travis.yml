@@ -10,6 +10,9 @@ script: python test_fruit.py
 #installation phase
   #before install
   #install
+ install:
+ - pip install -r requirements.txt
+ 
 
 #script phase
   #before script
