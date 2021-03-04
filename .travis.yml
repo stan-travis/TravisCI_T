@@ -6,6 +6,24 @@ script: python test_fruit.py
 #git:
 #  depth: 5
 
+
+#installation phase
+  #before install
+  #install
+
+#script phase
+  #before script
+  #after script
+  
+#after script phase 
+  #after sucess
+  #after failure
+
+#deploy phase
+  #before deploy
+  #deploy
+  #after deploy
+
 #safelist
 branches:
   only: 
