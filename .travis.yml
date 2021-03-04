@@ -3,10 +3,6 @@ python:
 - 3.8
 
 
-#git:
-#  depth: 5
-
-
 #installation phase
   #before install
   #install
@@ -35,17 +31,3 @@ python:
   #deploy
   #after deploy
 
-#safelist
-branches:
-  only: 
-  - main
-#blocklist  
-  except:
-  - opt
-#regular expresions can be used too  like - /[upt][a-q]*[t]\b//
-  
-env:
-  - QA
-  - PROD
-
-#update nr 6
