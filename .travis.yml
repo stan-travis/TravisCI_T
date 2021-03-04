@@ -1,7 +1,7 @@
 language: python
 python:
 - 3.8
-script: python test_fruit.py
+
 
 #git:
 #  depth: 5
@@ -16,6 +16,14 @@ script: python test_fruit.py
 
 #script phase
   #before script
+  #script
+  script: 
+  - python test_fruit.py
+  - mkdir shortstory
+  - cd shortstory
+  - touch KKK
+  - echo "It seems it works!"
+  
   #after script
   
 #after script phase 
